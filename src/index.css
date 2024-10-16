@@ -1,0 +1,23 @@
+body{
+  background-color: rgb(6, 6, 39);
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+h1{
+  color: white;
+}
+.hoverE{
+transition: transform 0.5s ease-in-out;
+cursor: pointer;
+
+
+& img{
+  border:  1px solid white;
+}
+
+}
+.hoverE:hover{
+  transform: scale(1.2);
+}
